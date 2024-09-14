@@ -48,9 +48,9 @@ const Page = (props: Props) => {
     <AdminProtected>
       <Suspense fallback={<div>Loading...</div>}>
         <Heading
-          title="Gyanoda - Admin"
-          description="Gyanoda is a platform for students to learn and get help from teachers"
-          keywords="Programming,MERN,Redux,Machine Learning"
+          title="Gyanoda - Admin Dashboard"
+          description="Empower education management with Gyanoda's comprehensive admin tools for WBJEE and JEE Main ,NEET ,ALL INDIA COMPETITVE EXAMS exam preparation, including past year questions, video solutions, and performance analytics"
+          keywords="Education Management, Admin Dashboard, Analytics, Student Progress Tracking, WBJEE, JEE Main,NEET  Past Year Questions, ALL INDIA COMPETITVE EXAMS Video Solutions, Exam Preparation"
         />
         <div className="flex h-screen">
           <div className="1500px:w-[16%] w-1/5">
